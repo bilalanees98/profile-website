@@ -4,8 +4,9 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Bilal</title>
 	<meta name="description" content="Svelte demo app" />
+	<link rel="icon" href="/favicon.png" />
 </svelte:head>
 
 <div class="flex flex-col">

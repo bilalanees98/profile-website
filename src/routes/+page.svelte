@@ -1,5 +1,5 @@
 <script>
-	import Home from './home/+page.svelte';
+	import Header from './Header.svelte';
 </script>
 
 <svelte:head>
@@ -8,5 +8,5 @@
 </svelte:head>
 
 <section>
-	<Home />
+	<Header />
 </section>

@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import Footer from './Footer.svelte';
 	import Nav from './Nav.svelte';
 </script>
 
@@ -8,4 +9,5 @@
 	<main class="mt-16">
 		<slot />
 	</main>
+	<Footer />
 </div>

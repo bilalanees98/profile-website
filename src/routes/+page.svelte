@@ -1,5 +1,6 @@
 <script>
 	import Header from './Header.svelte';
+	import Intro from './Intro.svelte';
 </script>
 
 <svelte:head>
@@ -7,6 +8,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+<div class="flex flex-col">
 	<Header />
-</section>
+	<Intro />
+</div>

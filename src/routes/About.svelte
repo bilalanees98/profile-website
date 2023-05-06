@@ -2,17 +2,21 @@
   import Skills from "./Skills.svelte";
 </script>
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col items-center h-full">
   <div class="flex flex-col w-full items-center py-10">
     <img src="/pictures/profile-pic.png" alt="" class=" rounded-full w-56" />
-    <h2 class="text-2m font-semibold py-2">
+    <h2 class="text-2m font-semibold py-2 text-center mobile:max-tablet:w-1/2">
       Full Stack Developer & Software Engineer
     </h2>
   </div>
 
-  <div class="flex flex-col items-center w-full h-[21rem] bg-secondary-one">
+  <div
+    class="flex flex-col items-center w-full mobile:h-[32rem] tablet:h-[25rem] bg-secondary-one"
+  >
     <h1 class="text-m font-bold my-7 uppercase">hi, i’m Bilal</h1>
-    <div class="font-jost font-normal text-3s w-[50rem] text-center leading-6">
+    <div
+      class="font-jost font-normal text-3s mobile:w-[80%] tablet:w-[66%] laptop:w-[53%] text-center leading-6"
+    >
       <p>
         I am a software engineer, currently working as the Product Engineer
         behind btc.us.
@@ -33,7 +37,9 @@
       </p>
     </div>
   </div>
-  <div class="relative -translate-y-[40%]">
+  <div
+    class="flex relative w-full justify-center -translate-y-[60%] tablet:-translate-y-[40%]"
+  >
     <Skills />
   </div>
 </div>

@@ -2,6 +2,8 @@
   import "../app.css";
 </script>
 
-<div class="font-montserrat text-primary-two bg-primary-one">
+<div
+  class="h-screen flex flex-col grow font-montserrat text-primary-two bg-primary-one"
+>
   <slot />
 </div>

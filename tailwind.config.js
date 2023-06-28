@@ -1,8 +1,10 @@
 const colors = {
   "primary-one": "#303030",
   "primary-two": "#F5F5F5",
+  "primary-one-highlight": "#474747",
   "secondary-one": "#606A8B",
   "tertiary-one": "#A9A9A9",
+  
 };
 const fontFamily = {
   jost: ["Jost", "-apple-system", "Helvetica Neue", "Helvetica", "sans-serif"],
@@ -22,6 +24,7 @@ const fontSize = {
   m: "1.25rem",
   "2m": "1.5rem",
   l: "1.75rem",
+  xl: "2rem"
 };
 
 const screens = {

@@ -2,6 +2,9 @@
   import projects from "./projectDetails";
 </script>
 
+<svelte:head>
+  <title>Projects</title>
+</svelte:head>
 <div
   class="flex flex-col mobile:max-tablet:items-center tablet:pl-[6.25rem] pt-[3.27rem]"
 >

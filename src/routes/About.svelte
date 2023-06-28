@@ -2,7 +2,7 @@
   import Skills from "./Skills.svelte";
 </script>
 
-<div class="flex flex-col items-center h-full">
+<div class="flex flex-col items-center">
   <div class="flex flex-col w-full items-center py-10">
     <img src="/pictures/profile-pic.png" alt="" class=" rounded-full w-56" />
     <h2 class="text-2m font-semibold py-2 text-center mobile:max-tablet:w-1/2">
@@ -11,7 +11,8 @@
   </div>
 
   <div
-    class="flex flex-col items-center w-full mobile:h-[32rem] tablet:h-[25rem] bg-secondary-one"
+    class="flex flex-col items-center w-full mobile:h-[32rem] tablet:h-[25rem] laptop:h-[22rem]
+     bg-secondary-one"
   >
     <h1 class="text-m font-bold my-7 uppercase">hi, i’m Bilal</h1>
     <div
@@ -38,7 +39,7 @@
     </div>
   </div>
   <div
-    class="flex relative w-full justify-center -translate-y-[60%] tablet:-translate-y-[40%]"
+    class="flex w-full justify-center -translate-y-[60%] tablet:-translate-y-[40%]"
   >
     <Skills />
   </div>

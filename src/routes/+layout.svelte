@@ -4,10 +4,12 @@
   import Nav from "./Nav.svelte";
 </script>
 
-<Nav />
-<div
-  class="h-[77vh] flex flex-col grow font-montserrat text-primary-two bg-primary-one"
->
-  <slot />
+<div class="flex flex-col grow h-screen scroll-auto">
+  <Nav />
+  <div
+    class="flex flex-col grow font-montserrat text-primary-two bg-primary-one"
+  >
+    <slot />
+  </div>
+  <Footer />
 </div>
-<Footer />

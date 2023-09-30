@@ -3,7 +3,7 @@
     {
       name: "linkedin",
       img: "/socials/linkedin.svg",
-      link: "www.linkedin.com/in/mbilall",
+      link: "https://www.linkedin.com/in/mbilall",
     },
     {
       name: "github",

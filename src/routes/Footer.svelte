@@ -3,7 +3,7 @@
     {
       name: "linkedin",
       img: "/socials/linkedin.svg",
-      link: "https://www.linkedin.com/in/muhammad-bilal-6a76811a3/",
+      link: "https://www.linkedin.com/in/mbilall",
     },
     {
       name: "github",
